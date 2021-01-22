@@ -1,0 +1,41 @@
+// Place all the styles related to the top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top-bar {
+  width: 100wh;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffffff;
+
+  .title {
+    &__text {
+      font-size: 24px;
+      color: #ff944d;
+      text-decoration: none;
+    }
+  }
+  .head-btns {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
+  &__btn {
+    font-size: 15px;
+    border: 1px solid;
+    border-color: #ff944d;
+    height: 40px;
+    width: 120px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    color: #ff944d;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 18px;
+  }
+}
+
